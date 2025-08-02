@@ -1,16 +1,20 @@
 # 🧠 Em's Modified 7 Modern Languages in 7 Weeks Syllabus 
-Core programming concepts across 7 modern languages that resonate to my relevance (memory, emotion, drift, states).I'm having such a fun time goofing off and being silly while learning syntax in other languages but the original 7 mod langs was too bland for my taste 
+> Core programming concepts across 7 modern languages that resonate to exdnet's themes (memory, emotion, drift, states)
 
-This is a progressive tracker for my own studies so who knows how it'll deviate over time 🤷‍♀️
+I'm having such a fun time goofing off and being silly designing my own course reviews while practicing syntax in other languages bc the original 7 mod langs was too bland for my taste 
+
+> #we are at the pinnacle of self-taught education 
+
+This is a progressive tracker for my own revisions so who knows how it'll evolve over time 🤷‍♀️
 
 ### 🗂️ Languages Covered:
-- Python 🐍  
+- Python 🐍  (home)
 - TypeScript 🌀  
 - Rust 🦀  
 - Go 🏃  
 - Julia 🧬  
-- JavaScript ☕  
-- R 📊 (bc why not ig)
+- Haskell 🧠
+- Clojure 🌱
 
 ---
 
@@ -47,20 +51,20 @@ This is a progressive tracker for my own studies so who knows how it'll deviate 
 
 ---
 
-## Week 3: I/O and Data Handling  
+## Week 3: Data I/O & Modular Integration
 **📚 Topics:**  
-- File reading/writing  
-- Input/output basics  
-- Minimal Web Server  
-- Minimal Web Scraper  
-- Parsing JSON/XML  
+- File I/O (read/write text, JSON, CSV)
+- Basic CLI args / env config
+- Modular code: importing and linking functions
+- Config-based execution (e.g. via .json, .toml)
+- Serialization / state saving
 
 **💖 EXD-Aligned Practice:**  
-- `memory_importer`: read past logs from .txt  
-- `scene_saver`: write current state to file  
-- `emotion_scraper`: pull emotion words from the web  
-- `exd_server`: basic reactive local bot  
-- `state_parser`: extract signal from structured data
+- `memory_importer`: load past emotional states from .txt, .json
+- `scene_writer`: save current drift trajectory to file
+- `run_simulation`: execute EXD-Net behavior from config script
+- `exd_modular`: import functions from other files to build layered models
+- `state_logger`: track and serialize evolving memory states
 
 ---
 
@@ -110,34 +114,18 @@ This is a progressive tracker for my own studies so who knows how it'll deviate 
 
 ---
 
-## Week 7: Industry-Ready Tools  
+## Week 7: Modular Systems & Code Integration
 **📚 Topics:**  
-- Web frameworks  
-- Scraping libraries  
-- Testing frameworks  
-- Production concurrency patterns  
+- Organizing large codebases (folders, packages, imports)
+- Multi-file integration and script orchestration
+- CLI toolkits 
+- Lightweight configuration (e.g. .json, .toml)
+- Managing dependencies and run modes
 
 **💖 EXD-Aligned Practice:**  
-- `exd_api`: mini API that returns current memory state  
-- `scene_scraper`: gather example emotional scenes  
-- `unit_companion`: test suite for personal bots  
-- `loadwatcher`: production-style handler for multiple state streams  
-- `auto_exd`: bot that responds to real-time state logs
+- `exd_cli`: CLI tool to simulate a drift session with arguments
+- `em_module_core`: split core memory modeling into reusable parts
+- `config_runner`: load external .json config to run emotional experiments
+- `multiscene_pipeline`: run multiple scripts to simulate layered transitions
+- `state_bundle`: package states and logs into compressed archives (for future replay)
 
----
-
-## 🧭 Format
-Each week contains:
-- ✅ Core language walkthroughs  
-- 🧠 5 EXD-aligned exercises per language  
-- 🧪 Optional stretch challenges (e.g. drift visualization, memory graphs)  
-- 🪞 Reflective bot-building prompts (to turn theory into story)
-
----
-
-## 💫 Learning Outcomes
-By the end, you’ll be able to:
-- Write emotionally intelligent agents with different syntax
-- Simulate memory reorganization in any language  
-- Understand code as symbolic emotional modeling  
-- Speak 7 languages — like a multilingual computational heartthrob 😌💾

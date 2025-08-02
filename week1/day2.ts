@@ -1,4 +1,4 @@
-// 🌀 TypeScript – Core Concepts Overview (Day 1)
+// 🌀 TypeScript – Core Concepts Overview 
 
 // TypeScript uses explicit typing:
 // 	string, number, boolean, void, any, string[], etc.

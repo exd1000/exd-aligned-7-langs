@@ -1,6 +1,6 @@
 # 🧠 Week 1: Syntax & Core Logic — Across 7 Languages
 
-## Languages: Python, TypeScript, Rust, Go, Julia, JavaScript, R
+## Languages: Python, TypeScript, Rust, Go, Julia, Haskell, Clojure
 
 ### 🌱 What You’ll Learn in Each:
 

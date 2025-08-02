@@ -1,4 +1,4 @@
-# 🐍 Python – Core Concepts Overview (Day 1)
+# 🐍 Python – Core Concepts Overview 
 
     # Variables - store state, labels, data
     # Conditionals - decision-making
