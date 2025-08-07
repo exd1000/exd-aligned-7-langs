@@ -1,11 +1,10 @@
 # 🧠 Em's Modified 7 Modern Languages in 7 Weeks Syllabus 
-> Core programming concepts across 7 modern languages that resonate to exdnet's themes (memory, emotion, drift, states)
+Core programming concepts across 7 modern languages that resonate to exdnet's themes (memory, emotion, drift, states)
 
-I'm having such a fun time goofing off and being silly designing my own course reviews while practicing syntax in other languages bc the original 7 mod langs was too bland for my taste 
+I'm having such a fun time goofing off and being silly designing my own syllabus remix while practicing syntax in other languages bc the original 7 mod langs was too bland for my taste. And bc apparently my idea of fun is to learn new languages bc I'm an intellectual masochist. 
 
-> #we are at the pinnacle of self-taught education 
 
-This is a progressive tracker for my own revisions so who knows how it'll evolve over time 🤷‍♀️
+*This is a progressive tracker for my own revisions so who knows how it'll evolve over time* 🤷‍♀️
 
 ### 🗂️ Languages Covered:
 - Python 🐍  (home)
