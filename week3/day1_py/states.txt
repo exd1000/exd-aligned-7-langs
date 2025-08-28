@@ -1,0 +1,7 @@
+happy
+sad
+calm
+sleepy
+confused
+annoyed
+tired

@@ -177,12 +177,7 @@ mood_status()
 # run in terminal:
     # python main.py --trigger photo --mood sad 
 
-# exd_runner.py
-# 	•	Create a script that ties everything together:
-# 	•	Loads from config
-# 	•	Calls module functions
-# 	•	Runs the CLI
-# 	•	Acts as a central entry point with a main() function
+
 
 
 # memory_loader.py
@@ -190,27 +185,58 @@ mood_status()
 # 	•	File should contain at least 3 memory → emotion mappings
 # 	•	Loop and print them with intensity ratings
 
-# memory_importer.py
-# 	•	Load past emotional states from a .json or .txt file.
-# 	•	Print out key moments or states.
 
+import json
 
-# state_logger.py
-# 	•	Serialize state over time (log drift or memory snapshots to a file).
+with open("memory.json") as f: 
+    memories = json.load(f)
+for mem in memories:
+    print(memories[mem])
+
+# again is another .py file really necessary
 
 
 # scene_writer.py
 # 	•	Save a vector of states or current drift to a file (any format).
+
+state_vect = ["happy","sad","calm", "sleepy", "confused", "annoyed", "tired"]
+with open("states.txt", "w") as f: 
+    for state in state_vect:
+        f.write(f"{state}\n")
+
+
+# 	•	Serialize state over time (log drift or memory snapshots to a file).
+
+
+
+import pickle 
+
+drift_log = {"happy":"10:45", 
+             "sad":"8:29",
+             "curious":"3:23"}
+
+with open("save.pkl", "wb") as f: 
+    pickle.dump(drift_log,f)
+
+with open("save.pkl", "rb") as f: 
+    reopen = pickle.load(f)
+
+print(reopen)
 
 
 
 # run_simulation.py
 # 	•	Load a config (e.g., config.json) and execute model logic from it.
 
+with open("config.json") as f: 
+    config = json.load(f)
 
-# requirements.txt + README.md
-# 	•	Write a requirements.txt listing any libraries used (e.g., click, pyyaml)
-# 	•	Write a short README.md that:
-# 	•	Explains EXD-Net’s emotional simulation
-# 	•	Lists how to run the CLI and modules
+print(config["model"])
 
+
+# exd_runner.py
+# 	•	Create a script that ties everything together:
+# 	•	Loads from config
+# 	•	Calls module functions
+# 	•	Runs the CLI
+# 	•	Acts as a central entry point with a main() function

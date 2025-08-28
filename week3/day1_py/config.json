@@ -1,0 +1,5 @@
+ {
+"mode": "train",
+ "learning_rate": 0.01,
+ "model": "v1"
+}
